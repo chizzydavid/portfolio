@@ -1,0 +1,139 @@
+
+#portfolio {
+    background:linear-gradient(
+        rgba(20, 28, 50, 0.97),
+        rgba(20, 28, 50, 0.97)),
+          url("../../assets/images/banner.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+    text-align: left;
+    color: white;
+
+ }
+ .portfolio__row {
+    display: flex;
+}
+ .portfolio__left {
+     flex: 2;
+     padding: 2rem;
+ }
+ #portfolio h2 {
+    font-size: 2rem;
+    font-weight: 400;
+ }
+ .portfolio__left > p {
+    margin: 1.5rem 0;
+    font-size: 19px;
+  }
+
+ .portfolio__right {
+    flex: 3;
+    padding: 0 2rem;
+}
+.portfolio__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio__card {
+    width: 47%;
+    height: 300px;
+    margin-bottom: 1.2rem;
+    object-fit: contain;
+    position: relative;
+    overflow: hidden;
+}
+.portfolio__card a {
+    color: white;
+}
+.portfolio__card .content h3 {
+    letter-spacing: 1px;
+}
+.portfolio__card .content p {
+    padding: 0 10px;
+    text-align: center;
+}
+.portfolio__card .image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: all 600ms;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(40px);
+    -webkit-transition: all 450ms ease-in;
+    -moz-transition: all 450ms ease-in;
+    -o-transition: all 450ms ease-in;
+    -ms-transition: all 450ms ease-in;
+    transition: all 450ms;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio__card:hover .image{
+    transform: scale(1.2, 1.2);
+    opacity: 0.1;
+}
+.portfolio__card:hover .content {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;    
+}
+ #portfolio .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 0 auto 2rem auto;
+    display: none;
+ }
+
+ .portfolio__link {
+     background-color: #DC6451;
+     padding: 10px !important;
+     border-radius: 50%;
+     color: #fff;
+     font-size: 33px;
+     margin-bottom: 10px;
+ }
+ @media screen and (max-width: 1160px) {
+  
+}
+
+@media screen and (max-width: 1100px) {
+    .portfolio__card {
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+   #portfolio .profile-pic {
+      display: block;
+   } 
+   .portfolio__row {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {     
+   .portfolio__text {
+      padding: 0rem 15%;
+   }
+   .portfolio__card {
+    width: 100%;
+   }  
+}
+
+
