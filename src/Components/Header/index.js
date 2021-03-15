@@ -4,7 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import profileImage from '../../assets/images/profile_image.png';
+import bannerImage from '../../assets/images/profile_image.jpg';
 
 
 function Header() {
@@ -25,8 +25,7 @@ function Header() {
                 <h1>FullStack Software Engineer</h1>
                 <span className="border"></span>
                 <h3>
-                    I'm passionate about building things and I believe technology is a means through which creativity is expressed.
-                    Let's create the future together.
+                    I'm passionate about solving problems and I see technology not only as means to do this but also a way in which creativity is expressed. 
                 </h3>
 
 
@@ -51,7 +50,7 @@ function Header() {
             </div>
             <div className="banner__portrait">
                 <img
-                src={profileImage}
+                src={bannerImage}
                 alt="portrait"
                 />         
             </div>

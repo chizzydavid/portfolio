@@ -12,7 +12,7 @@ const Portfolio = () => {
 
                 <div className="portfolio__left">
                     <h2>Portfolio</h2>
-                    <p>Some of my current projects </p>
+                    <p>Some current projects I've worked on <br /> Click on any to open</p>
                 </div>
 
                 <div className="portfolio__right">
@@ -44,7 +44,7 @@ const Portfolio = () => {
                                 <div className="content">
                                     <p className="portfolio__link"> <LinkIcon  />  </p>
                                     <h3>Mail Hive</h3>
-                                    <p>An easy and fun platform to send and receive mails </p>
+                                    <p>A fun and innovative platform for sending and receiving mails </p>
                                 </div>
                             </a>
                         </div>  

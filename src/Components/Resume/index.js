@@ -18,8 +18,11 @@ import androidStudioIcon from '@iconify-icons/simple-icons/androidstudio';
 import expressIcon from '@iconify-icons/simple-icons/express';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
-import HomeWorkIcon from '@material-ui/icons/HomeWork';
+import andelaLogo from '../../assets/images/ANDELA-Logo.png';
+import ubaLogo from '../../assets/images/UBA-Logo.png';
+import bmtLogo from '../../assets/images/BMT-Logo.png';
+import uelLogo from '../../assets/images/UEL-Logo.jpeg';
+import nduLogo from '../../assets/images/NDU-Logo.jpeg';
 
 const Resume = () => {
   const scrollRef = useRef(null);
@@ -45,7 +48,10 @@ const Resume = () => {
                   <div className="resume__item">
                       <div className="line"></div>
                       <div className="resume__item__icon">
-                        <p className="portfolio__link"> <HomeWorkIcon  />  </p>
+                        <img
+                          src={uelLogo}
+                          alt="portrait"
+                          />
                       </div>
                       <div className="resume__item_text">
                           <h4>University of East London, London, England</h4>
@@ -57,7 +63,10 @@ const Resume = () => {
                   <div className="line"></div>
 
                       <div className="resume__item__icon">
-                        <p className="portfolio__link"> <HomeWorkIcon  />  </p>
+                        <img
+                          src={nduLogo}
+                          alt="portrait"
+                          /> 
                       </div>
                       <div className="resume__item_text">
                           <h4>Niger Delta University, Yenegoa, Nigeria</h4>
@@ -75,7 +84,10 @@ const Resume = () => {
               <div className="resume__item">
                       <div className="line"></div>
                       <div className="resume__item__icon">
-                        <p className="portfolio__link"> <WorkOutlineIcon  />  </p>
+                        <img
+                            src={ubaLogo}
+                            alt="UBA Logo"
+                        /> 
                       </div>
                       <div className="resume__item_text">
                           <h4>Software Engineer</h4>
@@ -87,7 +99,10 @@ const Resume = () => {
                   <div className="line"></div>
 
                       <div className="resume__item__icon">
-                        <p className="portfolio__link"> <WorkOutlineIcon  />  </p>
+                        <img
+                            src={andelaLogo}
+                            alt="Andela Logo"
+                            />
                       </div>
                       <div className="resume__item_text">
                           <h4>Software Engineer</h4>
@@ -99,7 +114,10 @@ const Resume = () => {
                   <div className="line"></div>
 
                       <div className="resume__item__icon">
-                        <p className="portfolio__link"> <WorkOutlineIcon  />  </p>
+                        <img
+                            src={bmtLogo}
+                            alt="Biomach Logo"
+                          />
                       </div>
                       <div className="resume__item_text">
                           <h4>Mobile Application Developer</h4>

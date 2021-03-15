@@ -1,8 +1,8 @@
 
 #portfolio {
     background:linear-gradient(
-        rgba(20, 28, 50, 0.97),
-        rgba(20, 28, 50, 0.97)),
+        rgba(20, 28, 50, 0.9),
+        rgba(20, 28, 50, 0.9)),
           url("../../assets/images/banner.jpg");
           background-attachment: fixed;
           background-repeat: no-repeat;
@@ -12,7 +12,8 @@
 
  }
  .portfolio__row {
-    display: flex;
+     display: flex;
+     padding: 1rem 0;
 }
  .portfolio__left {
      flex: 2;
@@ -24,7 +25,8 @@
  }
  .portfolio__left > p {
     margin: 1.5rem 0;
-    font-size: 19px;
+    line-height: 28px;
+    font-size: 18px;
   }
 
  .portfolio__right {
@@ -127,7 +129,15 @@
     }
 }
 
-@media screen and (max-width: 600px) {     
+@media screen and (max-width: 600px) {   
+    .portfolio__row {
+        padding: 0;
+    
+    }  
+    .portfolio__left > p {
+        margin: .7rem 0;
+        font-size: 14px;
+      }    
    .portfolio__text {
       padding: 0rem 15%;
    }
