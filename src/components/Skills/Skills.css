@@ -1,0 +1,97 @@
+
+#skills {
+      background:linear-gradient(
+          rgba(17, 17, 17, 0.9),
+          rgba(17, 17, 17, 0.9)),
+            url("../../assets/images/banner_two.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+     color: white;
+     padding: 2rem 0;
+ }
+
+ #skills_section {
+   padding: 4rem 1rem;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1200px;
+ }
+
+ .skills__row {
+   padding: 0;
+}
+
+.scroll_indicator {
+   display: none;
+}
+
+ #skills h2 {
+   font-size: 2rem;
+   text-align: center;
+ }
+
+.skill__cards {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 2.2rem;
+   padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+   .skill__cards {
+      width: 1020px;
+   }
+
+   .skills__row {
+      padding: 0;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      white-space: nowrap;
+    }   
+    .skills__row::-webkit-scrollbar {
+      display: none;
+   }
+   .skills__row {
+      -ms-overflow-style: none; 
+      scrollbar-width: none; 
+   }
+   .scroll_indicator {
+      display: inline-block;
+      color: gray;
+      position: absolute;
+      padding: 5px;
+      z-index: 6;
+   }
+   
+   .scroll_indicator .MuiSvgIcon-root {
+      font-size: 17px;
+   }
+   .scroll_indicator.back {
+      left: 8px;
+      transform: translateY(460%);
+   }
+   .scroll_indicator.forward {
+      right: 5px;
+      transform: translateY(460%);
+   }
+}
+
+@media screen and (max-width: 760px) {   
+   #skills {
+     padding: 0;
+   }
+   #skills_section {
+      padding: 3.8rem 1rem;
+    }
+   #skills #skills_section {
+      position: relative;
+   }
+   .skill__cards {
+      padding: 0;
+      width: 920px;
+   }
+
+}
+

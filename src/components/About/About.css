@@ -1,0 +1,120 @@
+#about {
+   background: var(--bg-color);
+   margin-top: -10px;
+   color: var(--light-grey-text);
+   font-size: 15px;
+}
+ .about__row {
+    display: flex;
+    margin-top: 2rem;
+ }
+
+ .about__details {
+    text-align: left;
+    flex: 4;
+    padding: 1rem;
+    margin-right: 3rem;
+ }
+
+ #about h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.about__text {
+  line-height: 1.6rem;
+  margin-bottom: 1.5rem;
+ }
+
+.about__img {
+  flex: 3;
+  text-align: center;
+  /* border: solid red 2px; */
+}
+
+.about__img .profile-pic {
+  width: 300px;
+  height: 300px;
+  height: 90%;
+  display: block;
+  object-fit: cover;
+  margin: 5% auto 0 auto;
+  position: relative;
+  transform-style: preserve-3d;
+  border-radius: 3px;
+  background: url("../../assets/images/profile_image.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pic_content {
+  padding: 1rem;
+  border: solid var(--sec-color) 2px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1.1rem;
+  left: 1.1rem;
+  transform: translateZ(-10px);
+  border-radius: 3px;
+  transition: all 100ms ease-in;
+}
+
+.about__img .profile-pic:hover .pic_content{
+  top: .8rem;
+  left: .8rem;
+}
+
+ @media screen and (max-width: 1160px) {
+   .about__text {
+      font-size: 14px;
+   }
+}
+@media screen and (max-width: 990px) {
+  .about__details {
+    margin-right: 0;
+  }   
+  .about__row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about__img {
+    height: 200px;
+    padding: 0;
+    margin: .5rem 0 2rem 0;
+  }
+
+   .about__img .profile-pic  {
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+      /* border-radius: 50%; */
+   }
+
+  .pic_content {
+    top: .9rem;
+    left: .9rem;
+    /* border-radius: 50%; */
+  }
+
+   .about__img .profile-pic:hover .pic_content{
+      top: .5rem;
+      left: .5rem;
+   }   
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+ 
+}
+@media screen and (max-width: 400px) {
+
+}
+
+
+
+

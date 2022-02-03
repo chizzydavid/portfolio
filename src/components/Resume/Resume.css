@@ -1,0 +1,108 @@
+#resume {
+  background: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)),
+    url("../../assets/images/banner_two.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 5rem 0 3rem 0;
+}
+.resume__row {
+  padding: 1rem 0;
+  margin: 2.5rem auto 1.5rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+#resume h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.experience_menu_list {
+  padding: 0;
+  margin-right: 1rem;
+}
+
+.experience_menu_list li {
+  padding: 0.6rem 1.3rem;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 250ms ease-in;
+  text-transform: capitalize;
+  border-left: solid var(--grey-text-color) 1.4px;
+}
+
+.experience_menu_list li.active {
+  color: var(--sec-color);
+  border-left: solid var(--sec-color) 2px;
+}
+
+.experience_menu_list li:hover {
+  color: var(--sec-color);
+}
+
+.cv_button_link {
+  text-decoration: none;
+}
+.button {
+  margin: 3.5rem 0 0 2.9rem;
+  padding: 0.65rem 0;
+  width: 200px;
+  border: solid var(--sec-color) 2px;
+  color: var(--sec-color);
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  transition: all 250ms ease-in;
+}
+
+.button:hover,
+.button:active {
+  color: white;
+  background-color: var(--sec-color);
+}
+
+@media screen and (max-width: 760px) {
+  .resume__row {
+    flex-direction: column;
+  }
+  .experience_menu_list {
+    padding: 0;
+    margin-right: 0;
+    overflow: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding-left: 0.4rem;
+  }
+
+  .experience_menu_list li {
+    display: inline-block;
+    border-left: none;
+    padding: 0.6rem 0.7rem;
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    border-bottom: solid var(--grey-text-color) 1.4px;
+  }
+
+  .experience_menu_list li.active {
+    color: var(--sec-color);
+    border-left: none;
+    border-bottom: solid var(--sec-color) 2px;
+  }
+
+  .experience_menu_list li:hover {
+    color: var(--sec-color);
+  }
+
+  .experience_menu_list::-webkit-scrollbar {
+    display: none;
+  }
+  .experience_menu_list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

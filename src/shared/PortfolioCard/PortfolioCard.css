@@ -1,0 +1,137 @@
+.portfolio__card {
+    width: 330px;
+    height: 360px;
+    margin: 0 .6rem 1.4rem .8rem;
+    object-fit: contain;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(0px);
+    transition: all 250ms ease-in;
+}
+
+.portfolio__card a {
+    color: white;
+}
+
+.portfolio__card .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    color: var(--grey-text-color);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    transition: color 250ms ease-in; 
+    background: url("../../assets/images/banner_two.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.portfolio__card:hover {
+    transform: translateY(-10px);
+} 
+.portfolio__card:hover .content {
+    color: #fff;
+} 
+
+.icon_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.folder_icon {
+    font-size: 40px !important;
+    color: var(--sec-color);
+}
+
+.link_icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_icons a:nth-child(2) {
+    margin-left: 12px;
+}
+
+.github_icon, .redirect_icon {
+    cursor: pointer;
+    transition: all 450ms;
+}
+
+.redirect_icon {
+    font-size: 20px !important;
+    font-weight: normal !important;
+}
+
+.github_icon:hover, .redirect_icon:hover {
+    color: var(--sec-color);
+}
+
+.content h3 {
+    letter-spacing: 1px;
+    line-height: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0rem 0 1.4rem 0;
+}
+
+.skills_footer {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 12px;    
+}
+.footer_skill_item {
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.portfolio__card:hover {
+    transform: translateY(-10);  
+} 
+
+
+@media screen and (max-width: 1160px) {
+  
+}
+
+@media screen and (max-width: 1100px) {
+    .portfolio__card {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .portfolio__card {
+        margin: 0 .4rem 1.4rem .6rem;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    .portfolio__card {
+        width: 380px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .portfolio__card {
+        width: 315px;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {      
+   .portfolio__card, .image.overlay-image {
+        width: 100%;
+   }  
+}
+
+

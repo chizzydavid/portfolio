@@ -1,0 +1,101 @@
+
+#contact {
+    background-color: var(--bg-color);
+    color: white;
+}
+
+ .contact__row {
+     padding: 1rem 0;
+}
+
+ #contact h2 {
+   font-size: 2rem;
+   text-align: center;
+ }
+
+ .form_wrapper {
+   max-width: 600px;
+   margin: 2rem auto;
+   display: flex;
+   flex-direction: column;
+   padding: 0 1rem;
+   align-items: flex-end;
+ }
+
+.form_wrapper input, .form_wrapper textarea {
+   background-color: #070707;
+   padding: 1rem;
+   margin: 0;
+   border: none;
+   outline: none;
+   color: var(--light-grey-text);
+   border-radius: 3px;
+   font-size: 16px;
+}
+
+ .form_wrapper .split_width {
+   width: 100%;
+   display: flex;
+}
+.field_wrapper {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin: .5rem 0;
+}
+.field_wrapper.name {
+   margin-right: 2rem;
+}
+.field_wrapper span, .form_error {
+   text-align: left;
+   width: 100%;
+   color: var(--sec-color);
+   font-size: 13px;
+   margin: 0;
+   padding: 0 3px;
+}
+
+
+.form_wrapper .submit_button {
+   margin: 2.5rem 2px 0 0;
+   padding: .7rem 0;
+   width: 200px;
+   max-height: 50px;
+   color: white;
+   background-color: var(--sec-color);
+   text-align: center;
+   cursor: pointer;
+   letter-spacing: 1px;
+   border-radius: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .form_wrapper input:focus, .form_wrapper textarea:focus {
+   border: solid var(--sec-color) 2px;
+ }
+
+
+@media screen and (max-width: 1030px) {
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+   .form_wrapper {
+      padding: 0 .4rem;
+    }
+   .form_wrapper .split_width {
+      flex-direction: column;
+   }
+   .form_wrapper .split_width input {
+      width: 100%;
+   }
+}
+
+

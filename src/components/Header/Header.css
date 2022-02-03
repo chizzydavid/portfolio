@@ -1,0 +1,139 @@
+.banner {
+    background: rgba(17, 21, 23, 0.5);
+    height: 100vh;
+    min-height: 600px;
+    width: 100vw;
+    color: white;
+    display: flex;
+    padding: 14rem 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  min-height: 600px;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+.banner__text {
+    padding-left: 7.5rem;
+    flex: 2.6;
+}
+
+.banner__text > h1 {
+    font-size: 3.7rem;
+    letter-spacing: 3px;
+    padding-top: 2rem;
+    line-height: 4.1rem;
+    text-transform: uppercase;
+}
+.divider {
+    margin: 1.5rem 0;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: var(--sec-color);
+    border-radius: 3px;
+}
+.banner__text > h3 {
+    margin-top: 2rem;
+    border-radius: 5px;
+    width: 90%;
+    font-size: 1.18rem;
+    line-height: 1.7rem;
+    font-weight: normal;
+    max-width: 600px;
+}
+
+.hero__button {
+    margin-top: 3rem;
+    padding: 0;
+    width: 200px;
+    background-color: var(--sec-color);
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+.hero__button a {
+    display: inline-block;
+    padding: .9rem 0;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff; 
+     -webkit-transition: color .2s ease-in-out;
+     -moz-transition: color .2s ease-in-out;
+     -o-transition: color .2s ease-in-out;
+     -ms-transition: color .2s ease-in-out;
+     transition: color .3s ease;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .banner__text > h1 {
+        font-size: 2.4rem;
+        padding-top: 1rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .banner__text {
+        padding-left: 4rem;
+    }     
+    .banner__text > h2 {
+        font-size: 1.2rem;
+    }
+    .banner__text > h3 {
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .banner {
+        padding: 9.5rem 0 0 2rem;
+        background: rgba(17, 21, 23, 0.9);
+        height: 90vh;
+    }
+    #background-video {
+        height: 90vh;
+    }    
+    .hero__button {
+        width: 180px;
+    }
+
+    .hero__button {
+        margin-top: 2rem;
+    }    
+
+    .banner__text {
+        width: 100%;
+    }
+    .banner__text > h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        line-height: 2.3rem;
+    }  
+    .banner__text > h3 {
+        width: 60%;
+    }
+
+    .banner__text {
+        width: 100%;
+        padding-left: 0rem;
+    }
+}
+
