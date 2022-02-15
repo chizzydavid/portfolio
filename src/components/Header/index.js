@@ -19,7 +19,7 @@ function Header() {
     
                 <span className="divider"></span>
                 <h3>
-                I'm passionate about problem-solving with technology and building exceptional digital products. I currently work with Sensei AI to build user friendly AI powered applications. 
+                    I build exceptional, user-friendly products with technology. I'm passionate about computer science as a whole and the diverse ways its being applied in solving real world problems.
                 </h3>
     
                 <div className="hero__button" id="#portfolio">
@@ -33,7 +33,6 @@ function Header() {
             </div>
         </div>    
       </>
-  
   )
 }
 

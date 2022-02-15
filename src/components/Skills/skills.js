@@ -30,37 +30,37 @@ const allSkills = [
   { 
     name: "AWS",
     image: awsImg,
-    score: 80
+    score: 75
   },
   { 
     name: "HTML",
     image: htmlImg,
-    score: 80
+    score: 90
   },
   { 
     name: "Redis",
     image: redisImg,
-    score: 20
-  },   
+    score: 60
+  },
   { 
     name: "Docker",
     image: dockerImg,
     score: 70
   },
   { 
-    name: "Kubernetes",
-    image: kubernetesImg,
-    score: 60
-  },
+    name: "GraphQL",
+    image: graphqlImg,
+    score: 80
+  }, 
   { 
     name: "ReactJs",
     image: reactImg,
-    score: 83
+    score: 85
   },
   { 
     name: "PostgreSQL",
     image: postgresImg,
-    score: 20
+    score: 75
   },  
   { 
     name: "Flutter",
@@ -75,27 +75,27 @@ const allSkills = [
   { 
     name: "Python",
     image: pythonImg,
-    score: 58
+    score: 60
   },
   { 
     name: "Github",
     image: githubImg,
-    score: 76
+    score: 80
   },
   { 
-    name: "GraphQL",
-    image: graphqlImg,
-    score: 20
-  }, 
+    name: "Kubernetes",
+    image: kubernetesImg,
+    score: 50
+  },  
   { 
     name: "Bash Scripting",
     image: bashImg,
-    score: 20
+    score: 40
   },
   { 
     name: "Typescript",
     image: typescriptImg,
-    score: 20
+    score: 80
   },
 ];
 

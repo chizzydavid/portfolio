@@ -9,14 +9,18 @@ const About = () => {
         <h2>About Me</h2>
         <div className="about__row">
           <div className="about__details">
-            <p className="about__text">My name is David and I'm located in Lagos Nigeria, I started with editing wordpress themes and php websites, taught me the basics
-html, css and programming in general
-I have a knack for building applications/products which are intuitive and provide a dynamic user experience.
+            <p className="about__text">
+                I am Chizindu David, a Software Engineer based in Lagos Nigeria with 5 years of working experience. I'm currently with Alerzo,
+                one of Nigeria's biggest B2B platforms as a Backend Engineer, where I'm part of a team that maintians product services and a growing backend infrastructure 
+                <br />
 
-I've been priviledged to work with a budding startup, a large coporate bank. my main focus has been building front - end and mobile 
-spectrum ambitious/solutions with positive people. Fan of OUTDOOR activities and TV series</p>
-            <p className="about__text"></p>
-            <p className="about__text">As a Full Stack developer I've worked with both startups and big corporations to help build & scale various products. I've used a bunch of technologies, but lately I enjoy doing Front-End Web and Mobile. I have experience working with Javascript, Python and Dart(Flutter) </p>
+                I've had the privilege of working with both startups and big corporations in helping to build & scale various business products. 
+                I've worked with a handful technology stacks, but I enjoy working mainly with Javascript and Flutter
+            </p>
+
+            <p className="about__text">
+              In my spare time I love to read fiction novels and play board games. I also love eating Nigerian food particularly, jollof rice and dodo ;-)
+            </p>
           </div>
 
           <div className="about__img">
