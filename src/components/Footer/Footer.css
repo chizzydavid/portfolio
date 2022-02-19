@@ -24,7 +24,6 @@ footer img {
     display: flex;
     justify-content: center;
     margin-bottom: 1.5rem;
-
 }
 .social__link .link {
     margin: 0 10px;
@@ -48,6 +47,20 @@ footer img {
     width: 100%;
     font-size: 11px;
 }
+
+
+@media screen and (max-width: 760px) {
+    footer {
+        padding: 2rem 0 3rem 0;
+     }
+    footer img {
+        margin: 1rem auto 1.5rem auto;
+    }
+    .social__link {
+        margin-bottom: 0;
+    }    
+ }
+ 
 
 
 

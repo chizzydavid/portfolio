@@ -1,10 +1,8 @@
 import React from 'react'
 import './Header.css'
 import { HashLink } from 'react-router-hash-link';
-import bannerImage from '../../assets/images/banner_two.jpg';
+import bannerImage from '../../assets/images/video_poster.png';
 import bannerVideo from '../../assets/images/banner_video.mp4';
-
-
 function Header() {
   return (
       <> 
@@ -19,7 +17,7 @@ function Header() {
     
                 <span className="divider"></span>
                 <h3>
-                    I build exceptional, user-friendly products with technology. I'm passionate about computer science as a whole and the diverse ways its being applied in solving real world problems.
+                    Making use of technology to build exceptional, user-friendly products. I'm passionate about computer science as a whole and the diverse ways its being applied in solving real world problems.
                 </h3>
     
                 <div className="hero__button" id="#portfolio">
