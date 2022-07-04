@@ -2,7 +2,6 @@ import React  from 'react'
 import './Education.css';
 import EducationCard from '../../shared/EducationCard'
 import allEducationItems from './education_items';
-// import { useSpring, animated } from 'react-spring';
 
 
 const Education = () => {

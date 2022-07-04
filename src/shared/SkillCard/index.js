@@ -1,13 +1,11 @@
 import React from "react";
 import './SkillCard.css';
 import {
-    // CircularProgressbar,
     CircularProgressbarWithChildren,
     buildStyles
   } from "react-circular-progressbar";
   import "react-circular-progressbar/dist/styles.css";
 
-//   import AnimatedProgressProvider from "./AnimatedProgressProvider";
 import ProgressProvider from "./ProgressProvider";
 
 
