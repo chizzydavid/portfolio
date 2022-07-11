@@ -12,6 +12,10 @@
 }
 
 #background-video {
+  background: url("../../assets/images/video_poster.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   min-height: 600px;
