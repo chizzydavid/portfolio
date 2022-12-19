@@ -20,15 +20,16 @@ function Header() {
     
                 <span className="divider"></span>
                 <h3>
-                    I make use of technology to build highly scalabe and robust systems. I'm passionate about the diverse ways technology is being applied in solving real world problems.
+                    {/* I make use of technology to build highly scalabe and robust systems. I'm passionate about the diverse ways technology is being applied in solving real world problems. */}
+                    Utilizing technology in building robust, scalable and highly available distributed systems, with a specific focus on performance optimizations.
                 </h3>
     
                 <div className="hero__button" id="#portfolio">
                     <HashLink 
-                        to="#portfolio"
+                        to="#resume"
                         scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start'})}
                     > 
-                    <p>VIEW PORTFOLIO</p>
+                    <p>VIEW RESUME</p>
                     </HashLink>
                 </div>
             </div>

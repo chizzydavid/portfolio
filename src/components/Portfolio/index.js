@@ -5,9 +5,9 @@ import allProjects from './projects';
 import { useSpring, animated } from 'react-spring';
 
 const Portfolio = () => {
-  const [projectFilter, setProjectFilter] = useState('all');
+  // const [projectFilter, setProjectFilter] = useState('all');
   const [isShowingMore, setIsShowingMore] = useState(false);
-  const [projects, setProjects] = useState(allProjects);
+  const [projects] = useState(allProjects);
   const [displayedProjects, setDisplayedProjects] = useState(allProjects.slice(0, 6));
 
   const props = useSpring({ 
@@ -16,14 +16,14 @@ const Portfolio = () => {
     config: {duration: 800}
   })
 
-  const filterProjects = (filter) => {
-    setProjectFilter(filter);
+  // const filterProjects = (filter) => {
+  //   setProjectFilter(filter);
 
-    const newProjects = filter === 'all' ? allProjects : allProjects.filter((p) => p.category === filter);
-    setProjects(newProjects);
-    setDisplayedProjects(newProjects.length > 6 ? newProjects.slice(0, 6) : newProjects);
-    setIsShowingMore(false);
-  }
+  //   const newProjects = filter === 'all' ? allProjects : allProjects.filter((p) => p.category === filter);
+  //   setProjects(newProjects);
+  //   setDisplayedProjects(newProjects.length > 6 ? newProjects.slice(0, 6) : newProjects);
+  //   setIsShowingMore(false);
+  // }
 
   const toggleShowMore = () => {
     if (isShowingMore) setDisplayedProjects(projects.slice(0, 6));
@@ -37,7 +37,7 @@ const Portfolio = () => {
 
             <div className="portfolio__row">
                 <h2>Portfolio</h2>
-                <ul className="project_filter_list">
+                {/* <ul className="project_filter_list">
                     {['All', 'Frontend', 'Backend', 'Mobile', 'Cloud'].map((i, index) => 
                       (
                         <li
@@ -47,7 +47,7 @@ const Portfolio = () => {
                         > {i} </li>
                       ))
                     }
-                </ul>
+                </ul> */}
 
                 <animated.div style={props}>
                   <div className="portfolio__cards">
