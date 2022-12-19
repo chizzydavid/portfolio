@@ -21,7 +21,7 @@ const allExperiences = [
     responsibilities: [
       "Coordinated with the product team across several reviews to refactor application schema, implementing new data models and entity relationships using TypeORM, Postgres and Elastic Search",
       "Implemented the Coach-Mentee Matching System, factoring in common skills, interests, availability and current location leading to higher customer satisfaction and retention",
-      "Built the custom voice and video conferencing feature on the Sensei platform, using Amazon Chime SDK, saving over 40% of previous outsourcing costs",
+      "Built the custom voice and video conferencing feature on the Sensei platform, using Amazon Chime SDK, saving over 30% of previous running expenses",
       "AWS, NodeJs, Elastic Search, Kibana, TypeScript, Express, PostgreSQL, ReactJS, Redux-Saga, Digital Ocean, Parse Server, Cloudinary, Redis",
     ],
   },
@@ -32,9 +32,9 @@ const allExperiences = [
     startDate: "December 2019",
     endDate: "September 2021",
     responsibilities: [
-      "Led a team to build and scale backend services for an Online Mobile Banking product that allows users carry out online banking transactions using a prepaid card or bank account.",
-      "Fully integrated various third party payment systems including MasterCard Payment GateWay Service(MPGS)",
-      "Collaborated with a team to design API's for an in-house HR platform that automated HR processes such as Leave application, Transfers, Staff Exit and Onboarding etc",
+      "Participated in rebuilding ‘Diaspora’, an Online Banking Platform, for cross-border transactions.",
+      "Built a Staff Authentication Library to handle identity management and Multi-Factor Authentication. Integrated the bank’s Active Directory to retrieve vital information pertaining to Access Control and Permissions",
+      "Collaborated with a team to design and build an in-house HR platform that automated tasks such as Staff Onboarding/Exit, Leave application, Transfers, etc",
       "Docker, C#, ASP.NET, NodeJs, TypeScript, Express, GraphQL, Apollo, MongoDB, ReactJS, Redux, Microsoft Azure",
     ],
   },
@@ -45,10 +45,10 @@ const allExperiences = [
     startDate: "February 2019",
     endDate: "October 2019",
     responsibilities: [
-      "Actively involved in building and maintaining VOF Tracker, an in-house product used to track and rate the performance of bootcamp learners who were seeking to join Andela's Fellowship program as Software Engineers",
-      "Setup automated unit and integration tests alongside deployment pipelines using CircleCI and Heroku",
-      "Collaborated in building a Learning Platform that allows users take courses, get assessed and then gain access to a community of service experts",
-      "PostgreSQL, NodeJS, React, Redux, Express, CircleCI, JEST, Mocha & Chai, Heroku",
+      "Combined efforts with a team to build and maintain VOF Tracker, a web platform used to track and manage the performance of bootcamp learners seeking to join Andela’s fellowship program",
+      "Teamed up with UI/UX designers and front-end developers in building designed email templates and web pages using ReactJs and Redux",
+      "Designed highly secured server-side systems that mitigate security threats like SQL Injection, Cross-Site scripting, and OTP/Password bypass",
+      "PostgreSQL, NodeJS, React, Redux, Express, CircleCI, Mocha & Chai, Heroku",
     ],
   },
   {
@@ -71,8 +71,8 @@ const allExperiences = [
     startDate: "November 2017",
     endDate: "May 2018",
     responsibilities: [
-      "Integrating API services with third party payment gateways like RazorPay and Stripe",
-      "Fully built the internalization (i18n) feature on the web platform, implementing 3 international languages",
+      "Built payment modules using RazorPay and Stripe for processing safe and secure in-app purchases",
+      "Fully built the internalization (i18n) feature on the web application, implementing 3 international languages which led to a 14% increase in customers onboarding on the platform",
       "Implemented a matching algorithm to allow business owners track potential customers in their vicinity using Google’s Geolocation Services",
       "NodeJs, Express, AWS, AWS S3, Docker, CircleCI, MongoDB, Websockets(Socket IO), Firebase"
     ],

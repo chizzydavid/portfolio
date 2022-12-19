@@ -102,13 +102,13 @@ const allProjects = [
     category: 'frontend',
     skills: [skills.javascript, skills.es6, skills.react, skills.redux, skills.material, skills.heroku]
   },  
-  { 
-    name: "Rich Follower",
-    description: "A mobile application where subscribers can play trivia quizes about their favourite celebrities and compete with others under several categories.",
-    playUrl: "https://play.google.com/store/apps/details?id=com.auth0.richfollowermobileapp",
-    category: 'mobile',
-    skills: [skills.flutter, skills.dart, skills.bloc, skills.auth0, skills.stripe]
-  },
+  // { 
+  //   name: "Rich Follower",
+  //   description: "A mobile application where subscribers can play trivia quizes about their favourite celebrities and compete with others under several categories.",
+  //   playUrl: "https://play.google.com/store/apps/details?id=com.auth0.richfollowermobileapp",
+  //   category: 'mobile',
+  //   skills: [skills.flutter, skills.dart, skills.bloc, skills.auth0, skills.stripe]
+  // },
   { 
     name: "Ready Rides API",
     description: "API Endpoints for a rides rental platform, built using GraphQL, NestJS and Docker",
